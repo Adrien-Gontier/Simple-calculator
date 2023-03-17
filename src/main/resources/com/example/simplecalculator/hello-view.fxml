@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+
+
+<VBox alignment="CENTER" spacing="15" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.simplecalculator.HelloController">
+    <padding>
+        <Insets bottom="60.0" left="60.0" right="60.0" top="60.0"/>
+    </padding>
+    <Label text="0" style="-fx-border-radius: 3px; -fx-background-color: white; -fx-font-size: 20px; -fx-padding: 0 7px 0 0; -fx-border-color: lightgrey; -fx-min-height: 47px; -fx-min-width: 250px; -fx-max-height: 47px; -fx-max-width: 250px; -fx-alignment: center-right;" fx:id="numberLabel"/>
+    <VBox>
+        <HBox alignment="CENTER">
+            <Button onAction="#onSUPPButtonClick" style="-fx-padding: 19px 10px;" text="SUPP"/>
+            <Button onAction="#onACButtonClick" prefHeight="55" prefWidth="55" fx:id="ACCButton" text="AC" />
+            <Button onAction="#onDivideButtonClick" style="-fx-padding: 19px 23px;" text="÷"/>
+            <Button onAction="#onMultiplyButtonClick" style="-fx-padding: 19px 22px;" text="x"/>
+        </HBox>
+        <HBox alignment="CENTER">
+            <Button onAction="#on7ButtonClick"  style="-fx-padding: 20px 23px;" text="7"/>
+            <Button onAction="#on8ButtonClick" style="-fx-padding: 20px 23px;" text="8"/>
+            <Button onAction="#on9ButtonClick" style="-fx-padding: 20px 23px;" text="9"/>
+            <Button onAction="#onSubtractButtonClick" style="-fx-padding: 20px 22px;" text="-"/>
+        </HBox>
+        <HBox alignment="CENTER">
+            <Button onAction="#on4ButtonClick" style="-fx-padding: 20px 23px;" text="4"/>
+            <Button onAction="#on5ButtonClick" style="-fx-padding: 20px 23px;" text="5"/>
+            <Button onAction="#on6ButtonClick" style="-fx-padding: 20px 23px;" text="6"/>
+            <Button onAction="#onPlusButtonClick" style="-fx-padding: 20px 21px;" text="+"/>
+        </HBox>
+        <HBox alignment="CENTER">
+            <VBox>
+                <HBox alignment="CENTER">
+                    <Button onAction="#on1ButtonClick" style="-fx-padding: 20px 24px;" text="1"/>
+                    <Button onAction="#on2ButtonClick" style="-fx-padding: 20px 23px;" text="2"/>
+                    <Button onAction="#on3ButtonClick" style="-fx-padding: 20px 23px;" text="3"/>
+                </HBox>
+                <HBox alignment="CENTER">
+                    <Button onAction="#on0ButtonClick" style="-fx-padding: 20px 49px;" text="0"/>
+                    <Button onAction="#onDotButtonClick" style="-fx-padding: 20px 26px;" text="."/>
+                </HBox>
+            </VBox>
+            <Button onAction="#onEqualButtonClick" style="-fx-padding: 48.9px 21px;" text="="/>
+        </HBox>
+
+    </VBox>
+
+</VBox>
