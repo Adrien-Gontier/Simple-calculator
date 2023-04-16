@@ -31,3 +31,17 @@ I design this calculator to do simple math operation without priority of operati
 
 
 #### V - How to lauch this application
+
+
+
+
+## I - Application creation context
+
+This application was made as part of my training as an application designer developer.
+
+This was a project made from an existing repository and to be developed in the JavaFX language.
+
+
+## II - How I created this application
+
+
