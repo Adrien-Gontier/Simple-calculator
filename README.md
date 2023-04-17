@@ -21,6 +21,8 @@ I design this calculator to do simple math operation without priority of operati
 
 #### III - Front-end
 
+ - Step 1 : 
+ - Step 2 : 
 
 
 
@@ -45,3 +47,4 @@ This was a project made from an existing repository and to be developed in the J
 ## II - How I created this application
 
 
+##  III - Front-end
