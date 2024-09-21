@@ -11,7 +11,7 @@ I design this calculator to do simple math operation without priority of operati
 
 #### I - Application creation context
 
-During my training, I had to develop an application wich is a simple Calculator.
+During my training, I had to develop an application which is a simple Calculator.
 
 #### II - How I created this application
 
