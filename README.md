@@ -9,7 +9,7 @@ I design this calculator to do simple math operation without priority of operati
 
 ### Plan
 
-#### I - Application creation context
+I - Application creation context
 
 During my training, I had to develop an application which is a simple Calculator.
 
